@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.jboss.org/ironjacamar/schema
+        http://docs.jboss.org/ironjacamar/schema/datasources_1_0.xsd">
+    <datasource enabled="true"
+        jndi-name="jdbc/arquillian"
+        pool-name="ArquillianEmbeddedH2Pool">
+        <security>
+            <user-name>sa</user-name>
+            <password>b1l8u1b9b6e5r</password>
+        </security> 
+        <connection-url>jdbc:h2:C:\Users\Cruz\mpi_custom_2406201;DB_CLOSE_DELAY=-1</connection-url>
+        <driver>h2</driver>
+       
+    </datasource>
+</datasources>
